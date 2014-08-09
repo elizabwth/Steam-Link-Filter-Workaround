@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Steam Link Filter",
+  "description": "Elizabwth",
+  "version": "1.0",
+
+  "permissions": [
+    "webNavigation",
+    "activeTab",
+    "tabs",
+    "https://steamcommunity.com/linkfilter/*"
+  ],
+  "background": {
+     "scripts": ["background.js"]
+  }
+}
